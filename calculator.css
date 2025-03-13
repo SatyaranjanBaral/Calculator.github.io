@@ -1,0 +1,36 @@
+#calculator {
+    border: 2px solid rgb(80, 78, 78);
+    border-radius: 10px;
+    width: 200px;
+background-color: #3a4452
+    
+  }
+  
+  #display {
+    margin: 15px;
+    width: 85%;
+    font-size: 25px;
+    font-style: oblique;
+    font-display: 10px;
+    font-variant: small-caps;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: color #100f0f;
+    font-style: italic;
+    
+  }
+  
+  .button {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    color: rgb(10, 10, 10);
+    font-feature-settings: "aalt";
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: -8px -8px 14px;
+  }
